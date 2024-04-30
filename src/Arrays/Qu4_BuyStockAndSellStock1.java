@@ -1,6 +1,6 @@
 package Arrays;
 
-public class BuyStockAndSellStock1 {
+public class Qu4_BuyStockAndSellStock1 {
 //       Brute Force Approach Time Complexity = O(n^2) Space Complexity = O(1)
 /*    * Procedure
      * Step 1: Iterate ith Loop from 0 to n and j loop from i+1 to n
@@ -23,7 +23,7 @@ public class BuyStockAndSellStock1 {
 
     }
 
-//    ! Optimal Approach  = Time Complexity = O(n2) Space Complexity = O(n)
+//    ! Optimal Approach  = Time Complexity = O(n) Space Complexity = O(n)
     /*
        * Step 1 = Create Two Variables maxS and minS
        * Step 2  =  Iterate Loop and find out min with comparison with nums[i] elements
