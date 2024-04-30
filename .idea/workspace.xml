@@ -4,28 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55871922-b960-44d6-a588-eef99238b4f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JourneyOfDSAProblemSolving.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/CyclicSort/FindDuplicateNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/OtherAlgorithms/KdanesAlgorithms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/OtherAlgorithms/MooresVotingAlgorithms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu1_TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu2_MaximumSubArraysSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu3_MajorityElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/SortingMethods/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/SortingMethods/DutchFlagAlgorithms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/SortingMethods/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/SortingMethods/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/SortingMethods/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DayWiseProblemSolving/April_22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="55871922-b960-44d6-a588-eef99238b4f6" name="Changes" comment="Newly Added Notes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +15,33 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;shubham-karale&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/shubham-karale/ProcessCode.git&quot;,
+    &quot;accountId&quot;: &quot;d3c78590-e63b-40c7-9e96-a15b5e26617c&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -51,42 +51,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.April_22.executor": "Run",
-    "Application.BubbleSort.executor": "Run",
-    "Application.BuyStockAndSellStock1.executor": "Run",
-    "Application.FindDuplicateNumber.executor": "Run",
-    "Application.InsertionSort.executor": "Run",
-    "Application.MaximumSubArraysSum.executor": "Run",
-    "Application.Qu3_MajorityElements.executor": "Run",
-    "Application.SelectionSort.executor": "Run",
-    "Application.TwoSum.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.April_22.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BuyStockAndSellStock1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindAllSubArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindDuplicateNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InsertionSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSubArraysWithGivenSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumSubArraysSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu1_MinimumRotations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu3_MajorityElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu5_AlternateNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu6_SuperiorElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu8_CountAllSubArraysWithSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SelectionSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/1! DAC MCQ &amp; NOTES/JAVA&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.BuyStockAndSellStock1">
-    <configuration name="April_22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DayWiseProblemSolving.April_22" />
-      <module name="JourneyOfDSAProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DayWiseProblemSolving.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BuyStockAndSellStock1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.BuyStockAndSellStock1" />
+}</component>
+  <component name="RunManager" selected="Application.Qu1_MinimumRotations">
+    <configuration name="FindAllSubArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.FindAllSubArrays" />
       <module name="JourneyOfDSAProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Qu1_TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Qu1_TwoSum" />
+    <configuration name="LongestSubArraysWithGivenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.LongestSubArraysWithGivenSum" />
       <module name="JourneyOfDSAProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -111,8 +105,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Qu2_MaximumSubArraysSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Qu2_MaximumSubArraysSum" />
+    <configuration name="Qu1_MinimumRotations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.Qu1_MinimumRotations" />
+      <module name="JourneyOfDSAProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Qu7_LargestSubsequenceOfAnArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Qu7_LargestSubsequenceOfAnArrays" />
       <module name="JourneyOfDSAProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -124,8 +131,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Qu3_MajorityElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Qu3_MajorityElements" />
+    <configuration name="Qu8_CountAllSubArraysWithSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Qu8_CountAllSubArraysWithSum" />
       <module name="JourneyOfDSAProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -139,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BuyStockAndSellStock1" />
-        <item itemvalue="Application.Qu3_MajorityElements" />
-        <item itemvalue="Application.Qu2_MaximumSubArraysSum" />
-        <item itemvalue="Application.Qu1_TwoSum" />
-        <item itemvalue="Application.April_22" />
+        <item itemvalue="Application.Qu1_MinimumRotations" />
+        <item itemvalue="Application.LongestSubArraysWithGivenSum" />
+        <item itemvalue="Application.Qu8_CountAllSubArraysWithSum" />
+        <item itemvalue="Application.FindAllSubArrays" />
+        <item itemvalue="Application.Qu7_LargestSubsequenceOfAnArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +163,52 @@
       <option name="presentableId" value="Default" />
       <updated>1709575349317</updated>
     </task>
+    <task id="LOCAL-00001" summary="Newly Added Notes">
+      <option name="closed" value="true" />
+      <created>1714405449383</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714405449383</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Newly Added Notes">
+      <option name="closed" value="true" />
+      <created>1714405863639</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714405863639</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Newly Added Notes">
+      <option name="closed" value="true" />
+      <created>1714405989114</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714405989114</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Newly Added Notes">
+      <option name="closed" value="true" />
+      <created>1714494039881</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714494039881</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Newly Added Notes">
+      <option name="closed" value="true" />
+      <created>1714494075362</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714494075362</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Newly Added Notes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Newly Added Notes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -170,7 +222,26 @@
           </properties>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Arrays/LongestSubArraysWithGivenSum.java</url>
+          <line>3</line>
+          <properties class="Arrays.LongestSubArraysWithGivenSum" method="longestSubArraysGivenSum">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/Qu9_ThreeSum.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JourneyOfDSAProblemSolving$LongestSubArraysWithGivenSum.ic" NAME="LongestSubArraysWithGivenSum Coverage Results" MODIFIED="1714751630962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Arrays.*</FILTER>
+    </SUITE>
   </component>
 </project>
