@@ -7,14 +7,25 @@ public class StackImplementationUsingArrays {
         static int top = -1;
 
         static void push(int data){
-            top++;
-            arr[top] = data;
+            if(isFull()){
+                System.out.println("Stack is Full");
+            }
+            else{
+                top++;
+                arr[top] = data;
+            }
         }
 //        pop
         static int pop(){
-            int ele = arr[top];
-            top--;
-            return top;
+            if(isEmpty()){
+                System.out.println("Stack is Empty");
+                return 0;
+            }
+            else{
+                int topElement = arr[top];
+                top--;
+                return topElement;
+            }
         }
 
 //        ! PEEK
@@ -24,6 +35,11 @@ public class StackImplementationUsingArrays {
 
         static boolean isEmpty(){
             return arr.length==0;
+        }
+
+//         Check Arrays is full or not
+        static boolean isFull(){
+            return top == size-1;
         }
 
     }

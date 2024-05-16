@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55871922-b960-44d6-a588-eef99238b4f6" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/Queue/QueueImplementationUsingArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/StackImplementation/StackImplementationUsingArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/StackImplementation/StackImplementationUsingArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Matrix/Qu1_InitalizeAndTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Matrix/Qu2_SearchingInMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Matrix/Qu3_RowWiseTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/CircularQueueImplementationUsingArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/QueueImplementation/ImplementQueueUsingTwoStacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/QueueImplementation/QueueImplementationUsingLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/StackImplementation/ImplementStackUsingQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/Qu2_MaximumSubArraysSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Qu2_MaximumSubArraysSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queue/.cph/.QueueImplementationUsingArrays.java_4d8e920cdea33079d8c8eb0d608e7424.prob" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queue/Queue/QueueImplementationUsingArrays$Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queue/Queue/QueueImplementationUsingArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queue/QueueImplementationUsingArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queue/QueueImplementationUsingArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/StackImplementation/StackImplementationUsingArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/StackImplementation/StackImplementationUsingArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +62,14 @@
     "Application.BubbleSort.executor": "Run",
     "Application.BuyStockAndSellStock1.executor": "Run",
     "Application.FindDuplicateNumber.executor": "Run",
+    "Application.ImplementStackUsingQueue.executor": "Run",
     "Application.InsertionSort.executor": "Run",
     "Application.MaximumSubArraysSum.executor": "Run",
+    "Application.Qu1_InitalizeAndTraversal.executor": "Run",
+    "Application.Qu2_RowWiseTraversal.executor": "Run",
+    "Application.Qu2_SearchingInMatrix.executor": "Run",
     "Application.Qu3_MajorityElements.executor": "Run",
+    "Application.Qu3_RowWiseTraversal.executor": "Run",
     "Application.SelectionSort.executor": "Run",
     "Application.StackImplementationUsingArrays.executor": "Run",
     "Application.TwoSum.executor": "Run",
@@ -67,61 +82,9 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StackImplementationUsingArrays">
-    <configuration name="BuyStockAndSellStock1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.BuyStockAndSellStock1" />
-      <module name="JourneyOfDSAProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Qu1_TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Qu1_TwoSum" />
-      <module name="JourneyOfDSAProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Qu2_MaximumSubArraysSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Qu2_MaximumSubArraysSum" />
-      <module name="JourneyOfDSAProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Qu3_MajorityElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Qu3_MajorityElements" />
-      <module name="JourneyOfDSAProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackImplementationUsingArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.StackImplementation.StackImplementationUsingArrays" />
+  <component name="RunManager" selected="Application.ImplementStackUsingQueue">
+    <configuration name="ImplementStackUsingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.StackImplementation.ImplementStackUsingQueue" />
       <module name="JourneyOfDSAProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -133,13 +96,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Qu1_InitalizeAndTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Matrix.Qu1_InitalizeAndTraversal" />
+      <module name="JourneyOfDSAProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Matrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Qu2_SearchingInMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Matrix.Qu2_SearchingInMatrix" />
+      <module name="JourneyOfDSAProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Matrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Qu3_RowWiseTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Matrix.Qu3_RowWiseTraversal" />
+      <module name="JourneyOfDSAProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Matrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueImplementationUsingArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Queue.QueueImplementationUsingArrays" />
+      <module name="JourneyOfDSAProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StackImplementationUsingArrays" />
-        <item itemvalue="Application.BuyStockAndSellStock1" />
-        <item itemvalue="Application.Qu3_MajorityElements" />
-        <item itemvalue="Application.Qu2_MaximumSubArraysSum" />
-        <item itemvalue="Application.Qu1_TwoSum" />
+        <item itemvalue="Application.ImplementStackUsingQueue" />
+        <item itemvalue="Application.Qu3_RowWiseTraversal" />
+        <item itemvalue="Application.Qu2_SearchingInMatrix" />
+        <item itemvalue="Application.Qu1_InitalizeAndTraversal" />
+        <item itemvalue="Application.QueueImplementationUsingArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +175,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715084969890</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1715777064189</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715777064189</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1715777107639</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715777107639</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

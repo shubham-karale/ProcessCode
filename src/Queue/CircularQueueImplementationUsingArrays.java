@@ -1,18 +1,13 @@
 package Queue;
-/*
-   * Logic Implementation*
-   * rear and front variables
-   * isEmpty() = rear and front = -1 if yes return false
-   *
- */
 
-public class QueueImplementationUsingArrays {
-    static class Queue{
+public class CircularQueueImplementationUsingArrays {
+    static class CircularQueue{
+
         static int arr[];
         static int size;
         static int rear = -1;
         static int front = -1;
-        Queue(int size){
+        CircularQueue(int size){
             this.size = size;
             arr = new int[size];
         }
@@ -22,9 +17,16 @@ public class QueueImplementationUsingArrays {
             }
             return false;
         }
+//        ! Queue full condition
+        public static boolean isFull(){
+            if((rear+1)%size==front){
+                return true;
+            }
+            return false;
+        }
 //        ! ENQUEUE Operation in Queue = Add Elements to the Queue
         public static void enqueue(int data){
-            if(rear==size-1){
+            if(isFull()){
                 System.out.println("Queue is Full");
                 return;
             }
@@ -32,7 +34,7 @@ public class QueueImplementationUsingArrays {
                 front = rear = 0;
                 arr[rear] = data;
             }else{
-                rear++;
+                rear = (rear+1)%size;
                 arr[rear] = data;
             }
         }
@@ -47,7 +49,7 @@ public class QueueImplementationUsingArrays {
             if(front==rear){
                 front = rear = -1;
             }else{
-                front++;
+                front = (front+1)%size;
             }
             return element;
         }
@@ -61,15 +63,9 @@ public class QueueImplementationUsingArrays {
             return arr[front];
         }
 
+
     }
     public static void main(String[] args) {
-        System.out.println("Queue Implementation using Arrays");
-        Queue queue = new Queue(5);
-        queue.enqueue(10);
-        queue.enqueue(20);
-        queue.enqueue(30);
-        System.out.println(queue.peek());
-        System.out.println(queue.dequeue());
-        System.out.println(queue.peek());
+        System.out.println("Circular Queue Using Arrays");
     }
 }
