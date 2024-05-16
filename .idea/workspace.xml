@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55871922-b960-44d6-a588-eef99238b4f6" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/Matrix/Qu1_InitalizeAndTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Matrix/Qu2_SearchingInMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Matrix/Qu3_RowWiseTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Queue/CircularQueueImplementationUsingArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Queue/QueueImplementation/ImplementQueueUsingTwoStacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Queue/QueueImplementation/QueueImplementationUsingLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/StackImplementation/ImplementStackUsingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Qu1_ValidParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Qu2_MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Qu3_InfixToPostFix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/Qu2_MaximumSubArraysSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Qu2_MaximumSubArraysSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Queue/.cph/.QueueImplementationUsingArrays.java_4d8e920cdea33079d8c8eb0d608e7424.prob" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Queue/Queue/QueueImplementationUsingArrays$Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Queue/Queue/QueueImplementationUsingArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Queue/QueueImplementationUsingArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queue/QueueImplementationUsingArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/StackImplementation/StackImplementationUsingArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/StackImplementation/StackImplementationUsingArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/StackImplementation/StackImplementationUsingArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/StackImplementation/StackImplementationUsingArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/StackImplementationUsingLL.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +20,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -56,33 +50,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.April_22.executor": "Run",
-    "Application.BubbleSort.executor": "Run",
-    "Application.BuyStockAndSellStock1.executor": "Run",
-    "Application.FindDuplicateNumber.executor": "Run",
-    "Application.ImplementStackUsingQueue.executor": "Run",
-    "Application.InsertionSort.executor": "Run",
-    "Application.MaximumSubArraysSum.executor": "Run",
-    "Application.Qu1_InitalizeAndTraversal.executor": "Run",
-    "Application.Qu2_RowWiseTraversal.executor": "Run",
-    "Application.Qu2_SearchingInMatrix.executor": "Run",
-    "Application.Qu3_MajorityElements.executor": "Run",
-    "Application.Qu3_RowWiseTraversal.executor": "Run",
-    "Application.SelectionSort.executor": "Run",
-    "Application.StackImplementationUsingArrays.executor": "Run",
-    "Application.TwoSum.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.April_22.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BuyStockAndSellStock1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindDuplicateNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImplementStackUsingQueue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InsertionSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumSubArraysSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu1_InitalizeAndTraversal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu2_MinStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu2_RowWiseTraversal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu2_SearchingInMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu3_MajorityElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu3_RowWiseTraversal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SelectionSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StackImplementationUsingArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ImplementStackUsingQueue">
+}</component>
+  <component name="RunManager" selected="Application.Qu3_InfixToPostFix">
     <configuration name="ImplementStackUsingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stack.StackImplementation.ImplementStackUsingQueue" />
       <module name="JourneyOfDSAProblemSolving" />
@@ -96,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Qu1_InitalizeAndTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Matrix.Qu1_InitalizeAndTraversal" />
+    <configuration name="Qu2_MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.Qu2_MinStack" />
       <module name="JourneyOfDSAProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Matrix.*" />
+          <option name="PATTERN" value="Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,6 +117,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Qu3_InfixToPostFix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.Qu3_InfixToPostFix" />
+      <module name="JourneyOfDSAProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Qu3_RowWiseTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Matrix.Qu3_RowWiseTraversal" />
       <module name="JourneyOfDSAProblemSolving" />
@@ -135,26 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueImplementationUsingArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queue.QueueImplementationUsingArrays" />
-      <module name="JourneyOfDSAProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Qu3_InfixToPostFix" />
+        <item itemvalue="Application.Qu2_MinStack" />
         <item itemvalue="Application.ImplementStackUsingQueue" />
         <item itemvalue="Application.Qu3_RowWiseTraversal" />
         <item itemvalue="Application.Qu2_SearchingInMatrix" />
-        <item itemvalue="Application.Qu1_InitalizeAndTraversal" />
-        <item itemvalue="Application.QueueImplementationUsingArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +186,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715777107639</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1715881525574</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715881525574</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1715881548254</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715881548254</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
