@@ -5,42 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55871922-b960-44d6-a588-eef99238b4f6" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/OtherAlgorithms/PrefixSumAndSuffixSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu10_Subsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu11_IntersectionOfTwoArraysII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu12_RemoveElement_27.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu13_SearchInsertPosition_35.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu14_NextGreaterElement_496.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu15_Special_Array_With_X_Elements_Greater_Than_or_Equal_X_1608.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu16_ArrayPartioning_561.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu17_MedianOfTwoSortedArrays_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu18_KthMissingPositiveNumber_1539.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu20_MaxProduct_SubArray_152.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu21_SumOfTwoArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu22_LargestSubarrayWith0Sum_GFG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu23_4Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu24_TrappingRainWater_42.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu25_Kth_MissingPositiveNumber_1539.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu26_PrintMisssingPositiveNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu27_PeakIndexOfMountainArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu_MajorityElementIII__229.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Qu24_FindFirstAndLastOccurence_34.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Qu25_SearchInsertPosition_35.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Qu26_SqrtOfX_69.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Qu27_PeakIndexOfMountainArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Qu28_SeachInRotatedSortedArrays_33.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Qu29_FindKthMissingPositiveNumber_1539.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Matrix/Qu4_SetMatrixOnes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Revision/Qu1to5.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Revision/Qu5to10.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Qu4_PrefixToPostFix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Qu5_InfixToPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Qu6_InfixToPostfix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashMap/HashMapCollectionFramework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashMap/Qu1_FrequencyOfanElementAndReturnEleWhoHasMaxFrequency.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/Qu5_AlternateNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Qu5_AlternateNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/Qu7_LargestSubsequenceOfAnArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Qu7_LargestSubsequenceOfAnArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/Qu8_CountAllSubArraysWithSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Qu8_CountAllSubArraysWithSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/Qu2_MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/Qu2_MinStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,53 +51,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.April_22.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BuyStockAndSellStock1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindAllSubArrays.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FindDuplicateNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ImplementStackUsingQueue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InsertionSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestSubArraysWithGivenSum.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MaximumSubArraysSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrefixSumAndSuffixSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Qu11_IntersectionOfTwoArraysII.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Qu13_SearchInsertPosition_35.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Qu17_MedianOfTwoSortedArrays_4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Qu18_KthMissingPositiveNumber_1539.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Qu1_InitalizeAndTraversal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Qu20_MaxProduct_SubArray_152.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Qu23_4Sum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Qu24_FindFirstAndLastOccurence_34.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Qu26_PrintMisssingPositiveNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Qu26_SqrtOfX_69.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Qu27_PeakIndexOfMountainArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Qu2_MinStack.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Qu2_RowWiseTraversal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Qu2_SearchingInMatrix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Qu3_InfixToPostFix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Qu3_MajorityElements.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Qu3_RowWiseTraversal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Qu4_SetMatrixOnes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Qu5_AlternateNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Qu6_InfixToPostfix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Qu6_SuperiorElements.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Qu8_CountAllSubArraysWithSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Qu_MajorityElementIII__229.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SelectionSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StackImplementationUsingArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.April_22.executor": "Run",
+    "Application.BubbleSort.executor": "Run",
+    "Application.BuyStockAndSellStock1.executor": "Run",
+    "Application.FindAllSubArrays.executor": "Debug",
+    "Application.FindDuplicateNumber.executor": "Run",
+    "Application.HashMapCollectionFramework.executor": "Run",
+    "Application.ImplementStackUsingQueue.executor": "Run",
+    "Application.InsertionSort.executor": "Run",
+    "Application.LongestSubArraysWithGivenSum.executor": "Debug",
+    "Application.MaximumSubArraysSum.executor": "Run",
+    "Application.PrefixSumAndSuffixSum.executor": "Run",
+    "Application.Qu11_IntersectionOfTwoArraysII.executor": "Run",
+    "Application.Qu13_SearchInsertPosition_35.executor": "Debug",
+    "Application.Qu17_MedianOfTwoSortedArrays_4.executor": "Run",
+    "Application.Qu18_KthMissingPositiveNumber_1539.executor": "Run",
+    "Application.Qu1_FrequencyOfanElementAndReturnEleWhoHasMaxFrequency.executor": "Run",
+    "Application.Qu1_InitalizeAndTraversal.executor": "Run",
+    "Application.Qu20_MaxProduct_SubArray_152.executor": "Run",
+    "Application.Qu23_4Sum.executor": "Run",
+    "Application.Qu24_FindFirstAndLastOccurence_34.executor": "Run",
+    "Application.Qu26_PrintMisssingPositiveNumber.executor": "Run",
+    "Application.Qu26_SqrtOfX_69.executor": "Run",
+    "Application.Qu27_PeakIndexOfMountainArrays.executor": "Run",
+    "Application.Qu2_MinStack.executor": "Run",
+    "Application.Qu2_RowWiseTraversal.executor": "Run",
+    "Application.Qu2_SearchingInMatrix.executor": "Run",
+    "Application.Qu3_InfixToPostFix.executor": "Run",
+    "Application.Qu3_MajorityElements.executor": "Run",
+    "Application.Qu3_RowWiseTraversal.executor": "Run",
+    "Application.Qu4_SetMatrixOnes.executor": "Run",
+    "Application.Qu5_AlternateNumbers.executor": "Run",
+    "Application.Qu6_InfixToPostfix.executor": "Run",
+    "Application.Qu6_SuperiorElements.executor": "Run",
+    "Application.Qu8_CountAllSubArraysWithSum.executor": "Run",
+    "Application.Qu_MajorityElementIII__229.executor": "Run",
+    "Application.SelectionSort.executor": "Run",
+    "Application.StackImplementationUsingArrays.executor": "Run",
+    "Application.TwoSum.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\1! JOURNEY OF DSA\JourneyOfDSAProblemSolving\src" />
@@ -140,13 +109,13 @@
       <recent name="BinarySearch" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Qu27_PeakIndexOfMountainArrays">
-    <configuration name="LongestSubArraysWithGivenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.LongestSubArraysWithGivenSum" />
+  <component name="RunManager" selected="Application.Qu1_FrequencyOfanElementAndReturnEleWhoHasMaxFrequency">
+    <configuration name="HashMapCollectionFramework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashMap.HashMapCollectionFramework" />
       <module name="JourneyOfDSAProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="HashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Qu24_FindFirstAndLastOccurence_34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.Qu24_FindFirstAndLastOccurence_34" />
+    <configuration name="Qu1_FrequencyOfanElementAndReturnEleWhoHasMaxFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashMap.Qu1_FrequencyOfanElementAndReturnEleWhoHasMaxFrequency" />
       <module name="JourneyOfDSAProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinarySearch.*" />
+          <option name="PATTERN" value="HashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Qu1_FrequencyOfanElementAndReturnEleWhoHasMaxFrequency" />
+        <item itemvalue="Application.HashMapCollectionFramework" />
         <item itemvalue="Application.Qu27_PeakIndexOfMountainArrays" />
         <item itemvalue="Application.Qu26_PrintMisssingPositiveNumber" />
         <item itemvalue="Application.Qu26_SqrtOfX_69" />
-        <item itemvalue="Application.Qu24_FindFirstAndLastOccurence_34" />
-        <item itemvalue="Application.LongestSubArraysWithGivenSum" />
       </list>
     </recent_temporary>
   </component>
