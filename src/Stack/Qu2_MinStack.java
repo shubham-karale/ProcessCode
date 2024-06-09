@@ -2,8 +2,8 @@ package Stack;
 
 import java.util.Stack;
 
-public interface Qu2_MinStack {
-    class Pair{
+public class Qu2_MinStack {
+   static class Pair{
         int x,y;
         Pair(int x,int y){
             this.x = x;
@@ -11,7 +11,7 @@ public interface Qu2_MinStack {
         }
 
     }
-    class MinStack{
+   static class MinStack{
         static Stack<Pair> st;
         public MinStack(){
             st = new Stack<>();

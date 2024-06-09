@@ -5,12 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55871922-b960-44d6-a588-eef99238b4f6" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/Stack/Qu1_ValidParenthesis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Qu2_MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Qu3_InfixToPostFix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/OtherAlgorithms/PrefixSumAndSuffixSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu10_Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu11_IntersectionOfTwoArraysII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu12_RemoveElement_27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu13_SearchInsertPosition_35.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu14_NextGreaterElement_496.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu15_Special_Array_With_X_Elements_Greater_Than_or_Equal_X_1608.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu16_ArrayPartioning_561.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu17_MedianOfTwoSortedArrays_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu18_KthMissingPositiveNumber_1539.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu20_MaxProduct_SubArray_152.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu21_SumOfTwoArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu22_LargestSubarrayWith0Sum_GFG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu23_4Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu24_TrappingRainWater_42.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu25_Kth_MissingPositiveNumber_1539.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu26_PrintMisssingPositiveNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu27_PeakIndexOfMountainArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Qu_MajorityElementIII__229.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Qu24_FindFirstAndLastOccurence_34.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Qu25_SearchInsertPosition_35.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Qu26_SqrtOfX_69.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Qu27_PeakIndexOfMountainArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Qu28_SeachInRotatedSortedArrays_33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Qu29_FindKthMissingPositiveNumber_1539.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Matrix/Qu4_SetMatrixOnes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Revision/Qu1to5.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Revision/Qu5to10.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Qu4_PrefixToPostFix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Qu5_InfixToPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Qu6_InfixToPostfix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/StackImplementation/StackImplementationUsingArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/StackImplementation/StackImplementationUsingArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/StackImplementationUsingLL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/Qu5_AlternateNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Qu5_AlternateNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/Qu7_LargestSubsequenceOfAnArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Qu7_LargestSubsequenceOfAnArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/Qu8_CountAllSubArraysWithSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Qu8_CountAllSubArraysWithSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/Qu2_MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/Qu2_MinStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +56,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -41,6 +72,9 @@
     &quot;accountId&quot;: &quot;d3c78590-e63b-40c7-9e96-a15b5e26617c&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Stack/Qu3_InfixToPostFix.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -55,16 +89,36 @@
     &quot;Application.April_22.executor&quot;: &quot;Run&quot;,
     &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
     &quot;Application.BuyStockAndSellStock1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindAllSubArrays.executor&quot;: &quot;Debug&quot;,
     &quot;Application.FindDuplicateNumber.executor&quot;: &quot;Run&quot;,
     &quot;Application.ImplementStackUsingQueue.executor&quot;: &quot;Run&quot;,
     &quot;Application.InsertionSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSubArraysWithGivenSum.executor&quot;: &quot;Debug&quot;,
     &quot;Application.MaximumSubArraysSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrefixSumAndSuffixSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu11_IntersectionOfTwoArraysII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu13_SearchInsertPosition_35.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Qu17_MedianOfTwoSortedArrays_4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu18_KthMissingPositiveNumber_1539.executor&quot;: &quot;Run&quot;,
     &quot;Application.Qu1_InitalizeAndTraversal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu20_MaxProduct_SubArray_152.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu23_4Sum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu24_FindFirstAndLastOccurence_34.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu26_PrintMisssingPositiveNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu26_SqrtOfX_69.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu27_PeakIndexOfMountainArrays.executor&quot;: &quot;Run&quot;,
     &quot;Application.Qu2_MinStack.executor&quot;: &quot;Run&quot;,
     &quot;Application.Qu2_RowWiseTraversal.executor&quot;: &quot;Run&quot;,
     &quot;Application.Qu2_SearchingInMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu3_InfixToPostFix.executor&quot;: &quot;Run&quot;,
     &quot;Application.Qu3_MajorityElements.executor&quot;: &quot;Run&quot;,
     &quot;Application.Qu3_RowWiseTraversal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu4_SetMatrixOnes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu5_AlternateNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu6_InfixToPostfix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu6_SuperiorElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu8_CountAllSubArraysWithSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Qu_MajorityElementIII__229.executor&quot;: &quot;Run&quot;,
     &quot;Application.SelectionSort.executor&quot;: &quot;Run&quot;,
     &quot;Application.StackImplementationUsingArrays.executor&quot;: &quot;Run&quot;,
     &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
@@ -77,13 +131,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Qu3_InfixToPostFix">
-    <configuration name="ImplementStackUsingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.StackImplementation.ImplementStackUsingQueue" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\1! JOURNEY OF DSA\JourneyOfDSAProblemSolving\src" />
+      <recent name="D:\1! JOURNEY OF DSA\JourneyOfDSAProblemSolving\src\Arrays" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="BinarySearch" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Qu27_PeakIndexOfMountainArrays">
+    <configuration name="LongestSubArraysWithGivenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.LongestSubArraysWithGivenSum" />
       <module name="JourneyOfDSAProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack.StackImplementation.*" />
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Qu2_MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.Qu2_MinStack" />
+    <configuration name="Qu24_FindFirstAndLastOccurence_34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.Qu24_FindFirstAndLastOccurence_34" />
       <module name="JourneyOfDSAProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack.*" />
+          <option name="PATTERN" value="BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Qu2_SearchingInMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Matrix.Qu2_SearchingInMatrix" />
+    <configuration name="Qu26_PrintMisssingPositiveNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Qu26_PrintMisssingPositiveNumber" />
       <module name="JourneyOfDSAProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Matrix.*" />
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Qu3_InfixToPostFix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.Qu3_InfixToPostFix" />
+    <configuration name="Qu26_SqrtOfX_69" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.Qu26_SqrtOfX_69" />
       <module name="JourneyOfDSAProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack.*" />
+          <option name="PATTERN" value="BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +193,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Qu3_RowWiseTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Matrix.Qu3_RowWiseTraversal" />
+    <configuration name="Qu27_PeakIndexOfMountainArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Qu27_PeakIndexOfMountainArrays" />
       <module name="JourneyOfDSAProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Matrix.*" />
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Qu3_InfixToPostFix" />
-        <item itemvalue="Application.Qu2_MinStack" />
-        <item itemvalue="Application.ImplementStackUsingQueue" />
-        <item itemvalue="Application.Qu3_RowWiseTraversal" />
-        <item itemvalue="Application.Qu2_SearchingInMatrix" />
+        <item itemvalue="Application.Qu27_PeakIndexOfMountainArrays" />
+        <item itemvalue="Application.Qu26_PrintMisssingPositiveNumber" />
+        <item itemvalue="Application.Qu26_SqrtOfX_69" />
+        <item itemvalue="Application.Qu24_FindFirstAndLastOccurence_34" />
+        <item itemvalue="Application.LongestSubArraysWithGivenSum" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +265,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715881548254</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1716053762182</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716053762182</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1716053810845</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716053810845</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,13 +304,22 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Arrays/Qu1_TwoSum.java</url>
-          <line>7</line>
-          <properties class="Arrays.Qu1_TwoSum" method="twoSum">
+          <url>file://$PROJECT_DIR$/src/Arrays/Qu17_MedianOfTwoSortedArrays_4.java</url>
+          <line>3</line>
+          <properties class="Arrays.Qu17_MedianOfTwoSortedArrays_4" method="findMedianSortedArrays">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Arrays/LongestSubArraysWithGivenSum.java</url>
+          <line>3</line>
+          <properties class="Arrays.LongestSubArraysWithGivenSum" method="longestSubArraysGivenSum">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

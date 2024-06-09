@@ -39,11 +39,14 @@ public class Qu5_AlternateNumbers {
     }
 
     static int[] reArrangeArrays(int[] nums, int n) {
+        // Assign the left and right to 0
         int l = 0;
         int r = 0;
+        // Iterate over the Arrays
         for (int i = 0; i < nums.length; i++) {
+            // Check if the elements is greater than 0
             if (nums[i] > 0)
-                l = i;
+                l = i; //
             else if (nums[i] < 0) r = i;
 
             if (i % 2 == 0) {

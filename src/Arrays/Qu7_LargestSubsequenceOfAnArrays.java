@@ -34,7 +34,7 @@ public class Qu7_LargestSubsequenceOfAnArrays {
      }
     public static void main(String[] args) {
         System.out.println("Longest Subsequence of An Arrays");
-        int [] nums = {5, 8, 3, 2, 1, 4};
+        int [] nums = {5, 8, 3, 2, 1, 4}; // op =
         int n = nums.length;
         System.out.println(longestSubsequence(nums,n));
 

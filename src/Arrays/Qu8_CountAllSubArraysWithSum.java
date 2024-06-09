@@ -38,6 +38,27 @@ public class Qu8_CountAllSubArraysWithSum {
         }
         return cnt;
     }
+    // Optimised Approach
+    // TC = O(n)
+    // SC = O(n)
+    static int countSubArraysSumOptimised(int [] nums,int n,int target){
+        int cnt = 0;
+        int sum = 0;
+        int [] prefixSum = new int[n];
+        for (int i = 0; i < n ; i++) {
+            sum += nums[i];
+            prefixSum[i] = sum;
+        }
+        for (int i = 0; i < n ; i++) {
+            for (int j = i; j < n ; j++) {
+                int subArraySum = prefixSum[j] - (i > 0 ? prefixSum[i-1] : 0);
+                if(subArraySum == target){
+                    cnt++;
+                }
+            }
+        }
+        return cnt;
+    }
 
     public static void main(String[] args) {
         System.out.println("Count All SubArrays with Sum");
