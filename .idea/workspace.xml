@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55871922-b960-44d6-a588-eef99238b4f6" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/HashMap/HashMapCollectionFramework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashMap/Qu1_FrequencyOfanElementAndReturnEleWhoHasMaxFrequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashMap/HashMapImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMap/Qu1_FrequencyOfanElementAndReturnEleWhoHasMaxFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap/Qu1_FrequencyOfanElementAndReturnEleWhoHasMaxFrequency.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +59,8 @@
     "Application.FindAllSubArrays.executor": "Debug",
     "Application.FindDuplicateNumber.executor": "Run",
     "Application.HashMapCollectionFramework.executor": "Run",
+    "Application.HashMapImplementation (1).executor": "Run",
+    "Application.HashMapImplementation.executor": "Run",
     "Application.ImplementStackUsingQueue.executor": "Run",
     "Application.InsertionSort.executor": "Run",
     "Application.LongestSubArraysWithGivenSum.executor": "Debug",
@@ -94,7 +96,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -109,9 +111,9 @@
       <recent name="BinarySearch" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Qu1_FrequencyOfanElementAndReturnEleWhoHasMaxFrequency">
-    <configuration name="HashMapCollectionFramework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashMap.HashMapCollectionFramework" />
+  <component name="RunManager" selected="Application.HashMapImplementation">
+    <configuration name="HashMapImplementation (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashMap.HashMapImplementation" />
       <module name="JourneyOfDSAProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Qu1_FrequencyOfanElementAndReturnEleWhoHasMaxFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashMap.Qu1_FrequencyOfanElementAndReturnEleWhoHasMaxFrequency" />
+    <configuration name="HashMapImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashMap.HashMapImplementation" />
       <module name="JourneyOfDSAProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -177,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Qu1_FrequencyOfanElementAndReturnEleWhoHasMaxFrequency" />
-        <item itemvalue="Application.HashMapCollectionFramework" />
+        <item itemvalue="Application.HashMapImplementation" />
+        <item itemvalue="Application.HashMapImplementation (1)" />
         <item itemvalue="Application.Qu27_PeakIndexOfMountainArrays" />
-        <item itemvalue="Application.Qu26_PrintMisssingPositiveNumber" />
         <item itemvalue="Application.Qu26_SqrtOfX_69" />
+        <item itemvalue="Application.Qu26_PrintMisssingPositiveNumber" />
       </list>
     </recent_temporary>
   </component>

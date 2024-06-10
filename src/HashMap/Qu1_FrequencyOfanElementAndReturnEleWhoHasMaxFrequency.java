@@ -22,6 +22,7 @@ public class Qu1_FrequencyOfanElementAndReturnEleWhoHasMaxFrequency {
         System.out.println(mp);
 
         // Find Out which elemetns have max frequency
+        System.out.println("Traversal of HashMap");
         int max = Integer.MIN_VALUE;
         int element = -1;
         for(Map.Entry<Integer,Integer> e : mp.entrySet()){
@@ -30,6 +31,7 @@ public class Qu1_FrequencyOfanElementAndReturnEleWhoHasMaxFrequency {
                 element = e.getKey();
             }
         }
+        System.out.println("Element who has max frequency is: "+element);
 
         // Using var variable
         int max1= Integer.MIN_VALUE;
@@ -40,6 +42,20 @@ public class Qu1_FrequencyOfanElementAndReturnEleWhoHasMaxFrequency {
                 el = x.getKey();
             }
         }
+
+        System.out.println("Element who has max frequency is: "+el);
+
+        // Using KeySet
+        System.out.println("Find Max Frequency Element using KeySet");
+        int max2 = Integer.MIN_VALUE;
+        int ele = -1;
+        for(int x : mp.keySet()){
+            if(mp.get(x) > max2){
+                max2 = mp.get(x);
+                ele = x;
+            }
+        }
+        System.out.println("Element who has max frequency is: "+ele);
 
 
 
