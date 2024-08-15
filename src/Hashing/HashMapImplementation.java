@@ -1,4 +1,4 @@
-package HashMap;
+package Hashing;
 
 import java.util.LinkedList;
 
@@ -11,12 +11,24 @@ public class HashMapImplementation {
 
         private int n; // Number of key-value pairs
 
+
+        // Create Node Class Which have key and value pair
+        private  class Node{
+            K key; // Key
+            V value; // Value
+            Node next;
+            public Node(K key,V value){
+                this.key = key;
+                this.value = value;
+            }
+        }
+
         private LinkedList<Node> [] buckets; // Array of LinkedList of Nodes
 
         // * Create HashFunction which will return the hashcode of the key
         private int HashFunction(K key){
            int  hc = key.hashCode();
-           return ( Math.abs(hc) ) % buckets.length;
+           return ( Math.abs(hc) ) % buckets.length; // Because we want values should be in range of 0 to N-1
 
         }
 
@@ -33,17 +45,15 @@ public class HashMapImplementation {
             initBuckets(DEFAULT_CAPACITY);
         }
 
-
-        // Create Node Class Which have key and value pair
-        private  class Node{
-            K key; // Key
-            V value; // Value
-            Node next;
-            public Node(K key,V value){
-                this.key = key;
-                this.value = value;
-            }
+        public int capacity(){
+            return buckets.length;
         }
+
+        public float loadFactor(){
+            return n*1.0f/buckets.length;
+        }
+
+
 
         // All HashMaps functions
         //Size() = Returns the size of the HashMap
@@ -178,6 +188,7 @@ public class HashMapImplementation {
         System.out.println(map.containsKey("USA"));
         System.out.println(map.containsKey("UK"));
         System.out.println(map.containsKey("Russia"));
-
+        System.out.println( map.capacity());
+        System.out.println(  map.loadFactor());
     }
 }

@@ -23,15 +23,15 @@ public class Qu3_MajorityElements {
         }
         return ans;
     }
-//  Using HashMap Space Complexity = O(n) Time Complexity = O(n)
+// *  Using HashMap Space Complexity = O(n) Time Complexity = O(n)
     static int majorityElement(int [] nums,int n){
 //        Create HashMap
         HashMap<Integer,Integer> mp = new HashMap<>();
 //        Put Elements into the Map
         for (int i = 0; i < n; i++) {
             // Capture the value and Put into the Maps
-            int val = mp.getOrDefault(nums[i],0);
-            mp.put(nums[i],val+1);
+            int val = mp.getOrDefault(nums[i],0); // If the value is not present then put 0
+            mp.put(nums[i],val+1); // Increment the value
         }
 //      Iterate Over the Map
         for (Map.Entry<Integer, Integer> it : mp.entrySet()) {

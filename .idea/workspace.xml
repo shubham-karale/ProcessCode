@@ -3,16 +3,29 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="55871922-b960-44d6-a588-eef99238b4f6" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/HashMap/HashMapImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hashing/FindTheCommonElementOfBothArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hashing/HighestFrequencyCharacterInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/Qu18_Length_Of_Last_Word_58.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HashMap/Qu1_FrequencyOfanElementAndReturnEleWhoHasMaxFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap/Qu1_FrequencyOfanElementAndReturnEleWhoHasMaxFrequency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMap/HashMapCollectionFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hashing/HashMapCollectionFramework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMap/HashMapImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hashing/HashMapImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMap/Qu1_FrequencyOfanElementAndReturnEleWhoHasMaxFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hashing/Qu1_FrequencyOfanElementAndReturnEleWhoHasMaxFrequency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/Qu11_Jewels_And_Stones_771.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/Qu11_Jewels_And_Stones_771.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,6 +71,10 @@
     "Application.BuyStockAndSellStock1.executor": "Run",
     "Application.FindAllSubArrays.executor": "Debug",
     "Application.FindDuplicateNumber.executor": "Run",
+    "Application.FindTheCommonElementOfBothArrays.executor": "Run",
+    "Application.FindTheSmallestDivisorGivenAThreShold_1283.executor": "Debug",
+    "Application.Find_In_Rotated_Sorted_Arrays_33.executor": "Run",
+    "Application.Find_Missing_Positive_41.executor": "Run",
     "Application.HashMapCollectionFramework.executor": "Run",
     "Application.HashMapImplementation (1).executor": "Run",
     "Application.HashMapImplementation.executor": "Run",
@@ -65,11 +82,14 @@
     "Application.InsertionSort.executor": "Run",
     "Application.LongestSubArraysWithGivenSum.executor": "Debug",
     "Application.MaximumSubArraysSum.executor": "Run",
+    "Application.NthRootOfM.executor": "Run",
     "Application.PrefixSumAndSuffixSum.executor": "Run",
     "Application.Qu11_IntersectionOfTwoArraysII.executor": "Run",
+    "Application.Qu12_Sort_the_people_2418.executor": "Run",
     "Application.Qu13_SearchInsertPosition_35.executor": "Debug",
     "Application.Qu17_MedianOfTwoSortedArrays_4.executor": "Run",
     "Application.Qu18_KthMissingPositiveNumber_1539.executor": "Run",
+    "Application.Qu18_Length_Of_Last_Word_58.executor": "Run",
     "Application.Qu1_FrequencyOfanElementAndReturnEleWhoHasMaxFrequency.executor": "Run",
     "Application.Qu1_InitalizeAndTraversal.executor": "Run",
     "Application.Qu20_MaxProduct_SubArray_152.executor": "Run",
@@ -81,13 +101,19 @@
     "Application.Qu2_MinStack.executor": "Run",
     "Application.Qu2_RowWiseTraversal.executor": "Run",
     "Application.Qu2_SearchingInMatrix.executor": "Run",
+    "Application.Qu2_ValidPalindrome.executor": "Run",
     "Application.Qu3_InfixToPostFix.executor": "Run",
     "Application.Qu3_MajorityElements.executor": "Run",
     "Application.Qu3_RowWiseTraversal.executor": "Run",
+    "Application.Qu3_ValidAnagram.executor": "Run",
+    "Application.Qu4_IsomorphicStrings.executor": "Run",
     "Application.Qu4_SetMatrixOnes.executor": "Run",
     "Application.Qu5_AlternateNumbers.executor": "Run",
+    "Application.Qu5_RemoveOuterMostParenthesis.executor": "Run",
     "Application.Qu6_InfixToPostfix.executor": "Run",
+    "Application.Qu6_Reverse_Words_In_A_String_151.executor": "Run",
     "Application.Qu6_SuperiorElements.executor": "Run",
+    "Application.Qu7_Largest_Odd_Number_In_String_1903.executor": "Run",
     "Application.Qu8_CountAllSubArraysWithSum.executor": "Run",
     "Application.Qu_MajorityElementIII__229.executor": "Run",
     "Application.SelectionSort.executor": "Run",
@@ -95,11 +121,18 @@
     "Application.TwoSum.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
     "git-widget-placeholder": "Main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "last_opened_file_path": "D:/1! JOURNEY OF DSA/JourneyOfDSAProblemSolving",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -111,13 +144,13 @@
       <recent name="BinarySearch" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashMapImplementation">
-    <configuration name="HashMapImplementation (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashMap.HashMapImplementation" />
+  <component name="RunManager" selected="Application.FindTheCommonElementOfBothArrays">
+    <configuration name="FindTheCommonElementOfBothArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hashing.FindTheCommonElementOfBothArrays" />
       <module name="JourneyOfDSAProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashMap.*" />
+          <option name="PATTERN" value="Hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashMap.HashMapImplementation" />
+    <configuration name="Qu12_Sort_the_people_2418" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.Qu12_Sort_the_people_2418" />
       <module name="JourneyOfDSAProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashMap.*" />
+          <option name="PATTERN" value="String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Qu26_PrintMisssingPositiveNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Qu26_PrintMisssingPositiveNumber" />
+    <configuration name="Qu18_Length_Of_Last_Word_58" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.Qu18_Length_Of_Last_Word_58" />
       <module name="JourneyOfDSAProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Qu26_SqrtOfX_69" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.Qu26_SqrtOfX_69" />
+    <configuration name="Qu4_IsomorphicStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.Qu4_IsomorphicStrings" />
       <module name="JourneyOfDSAProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinarySearch.*" />
+          <option name="PATTERN" value="String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +197,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Qu27_PeakIndexOfMountainArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Qu27_PeakIndexOfMountainArrays" />
+    <configuration name="Qu7_Largest_Odd_Number_In_String_1903" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.Qu7_Largest_Odd_Number_In_String_1903" />
       <module name="JourneyOfDSAProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HashMapImplementation" />
-        <item itemvalue="Application.HashMapImplementation (1)" />
-        <item itemvalue="Application.Qu27_PeakIndexOfMountainArrays" />
-        <item itemvalue="Application.Qu26_SqrtOfX_69" />
-        <item itemvalue="Application.Qu26_PrintMisssingPositiveNumber" />
+        <item itemvalue="Application.FindTheCommonElementOfBothArrays" />
+        <item itemvalue="Application.Qu18_Length_Of_Last_Word_58" />
+        <item itemvalue="Application.Qu12_Sort_the_people_2418" />
+        <item itemvalue="Application.Qu4_IsomorphicStrings" />
+        <item itemvalue="Application.Qu7_Largest_Odd_Number_In_String_1903" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +228,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709575349317</updated>
+      <workItem from="1718092496902" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
@@ -252,8 +286,19 @@
       <option name="project" value="LOCAL" />
       <updated>1716053810845</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1723687207753</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723687207753</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -275,22 +320,31 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Arrays/Qu17_MedianOfTwoSortedArrays_4.java</url>
-          <line>3</line>
-          <properties class="Arrays.Qu17_MedianOfTwoSortedArrays_4" method="findMedianSortedArrays">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/FindTheSmallestDivisorGivenAThreShold_1283.java</url>
+          <line>18</line>
+          <properties class="BinarySearch.FindTheSmallestDivisorGivenAThreShold_1283" method="findSmallestDivisor">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Arrays/LongestSubArraysWithGivenSum.java</url>
+          <url>file://$PROJECT_DIR$/src/String/Qu2_ValidPalindrome.java</url>
           <line>3</line>
-          <properties class="Arrays.LongestSubArraysWithGivenSum" method="longestSubArraysGivenSum">
+          <properties class="String.Qu2_ValidPalindrome" method="checkValidPalindrome">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/String/Qu3_ValidAnagram.java</url>
+          <line>52</line>
+          <properties class="String.Qu3_ValidAnagram" method="validAnagram">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

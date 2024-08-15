@@ -22,7 +22,7 @@ public class Qu12_RemoveElement_27 {
         int [] nums1 = {0,1,2,2,3,0,4,2};
         int val1 = 2;
         int val = 3;
-        System.out.println(removeElement(nums, val));
-        System.out.println(removeElement(nums1, val1));
+        System.out.println(removeElement(nums, val)); // 2
+        System.out.println(removeElement(nums1, val1)); // 5
     }
 }
