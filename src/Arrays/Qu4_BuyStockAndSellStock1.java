@@ -23,7 +23,7 @@ public class Qu4_BuyStockAndSellStock1 {
 
     }
 
-//    ! Optimal Approach  = Time Complexity = O(n) Space Complexity = O(n)
+//    ! Optimal Approach  = Time Complexity = O(n) Space Complexity = O(1)
     /*
        * Step 1 = Create Two Variables maxS and minS
        * Step 2  =  Iterate Loop and find out min with comparison with nums[i] elements
