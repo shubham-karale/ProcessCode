@@ -37,6 +37,19 @@ public class Qu5_AlternateNumbers {
         return ans.toArray();
 
     }
+    /*
+    ! Optimized Approach
+    * Time Complexity = O(n)
+    * Space Complexity = O(1)
+    - Assign the left and right to 0
+    - Iterate over the Arrays
+    - Check if the elements is greater than 0
+    - If the element is greater than 0 then assign the left to i
+    - If the element is less than 0 then assign the right to i
+    - If the index is even then swap the element with left
+    - If the index is odd and the element is less than 0 then swap the element with right
+
+     */
 
     static int[] reArrangeArrays(int[] nums, int n) {
         // Assign the left and right to 0
